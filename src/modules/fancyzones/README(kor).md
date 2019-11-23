@@ -15,27 +15,27 @@ Fancy Zones를 시작하려면 PowerToys 설정에서 유틸리티를 활성화�
 
 ![Fancy Zones Table Editor Mode](TableEditor.png)
 
-The backlog for the utility can be found [here](https://github.com/Microsoft/PowerToys/tree/master/doc/planning/FancyZonesBacklog.md) and the source code is [here](https://github.com/Microsoft/PowerToys/tree/master/src/modules/fancyzones).
+이 유틸리티의 백 로그는 [여기](https://github.com/Microsoft/PowerToys/tree/master/doc/planning/FancyZonesBacklog.md)에서 볼수 있고 소스 코드는 [여기](https://github.com/Microsoft/PowerToys/tree/master/src/modules/fancyzones)에서 볼 수 있다.
 
-## Shortcut Keys
-| Shortcut      | Action |
+## 단축키
+| 단축키      | 동작 |
 | ----------- | ----------- |
-| Win + ~      | Launches editor       |
-| Win+Ctrl+\<Number>   | Cycles through saved layouts with the corresponding number of zones        |
-| Win+Left/Right Arrow | Move focused window between zones (only if Override snap hotkeys setting is enabled)  |
+| Win + ~      | 에디터 시작       |
+| Win+Ctrl+\<Number>   | 해당 구역 수로 저장된 레이아웃을 순환        |
+| Win+Left/Right Arrow | 영역 간에 초점이 맞춰진 창 이동 (스냅 핫키 재정의 설정이 활성화 된 경우에만)  |
 
-## Settings
-| Setting | Description |
+## 설정
+| 설정 | 설명 |
 | --------- | ------------- |
-| Enable zones while dragging with the shift key | Toggles between auto-snap mode with the shift key disabling snapping during a drag and manual snap mode where pressing the shift key during a drag enables snapping |
-| Override Windows Snap hotkeys (win+arrow) to move between zones | Enables or disables Windows Aero Snapping when Fancy Zones is running |
-| Keep windows in their zones when the screen resolution changes | After a screen resolution change, if this setting is enabled, Fancy Zones will resize and reposition windows into the zones they were previously in |
-| Keep windows in their zones when the active FancyZones layout changes | When this option is on, Fancy Zones will resize and position windows into the new zone layout by maintaining the previous zone number location of each window |
-| Flash zones when the active FancyZones layout changes | Briefly flash the zone layout when the layout changes or a new virtual desktop is activated |
-| Keep windows in their zones when the active virtual desktop changes | If an application is pinned to all virtual desktops, this setting will keep that window in the same zone on all desktops |
-| Zone Highlight Color (Default #0078D7) | the color that a zone becomes when it is the active drop target during a window drag 
-| Use new zone editing experience (Preview) | When enabled, the new editor is enabled.  The original editor has better support for multi-mon layouts |  
-| Move newly created windows to the last known zone | Automatically move a newly opened window into the last zone location that application was in |
+| Shift 키를 사용하여 드래그하면서 영역 활성화 | 드래그하는 동안 Shift 키를 사용하여 스냅을 비활성화하는 자동 스냅 모드와 드래그하는 동안 Shift 키를 누르면 스냅을 활성화하는 수동 스냅 모드 간 전환 |
+| 영역 간 이동을 위해 Windows Snap 단축키 (win + arrow)를 재정의 | Fancy Zones가 실행 중일 때 Windows Aero Snapping을 활성화 또는 비활성화 |
+| 화면 해상도가 변경될 때 창을 해당 영역에 유지 | 화면 해상도를 변경한 후 이 설정을 사용하면 새로운 영역이 이전에 있던 영역으로 창의 크기가 조정되고 위치가 조정 |
+| 활성화된 FancyZones 레이아웃이 변경될 때 창을 영역에 유지 | 이 옵션이 켜져 있으면 새로운 구역은 각 창의 이전 구역 번호 위치를 유지하여 창 크기를 조정하고 새 구역 레이아웃으로 배치 |
+| 활성화된 FancyZones 레이아웃이 변경될 때 플래시 영역 | 레이아웃이 변경되거나 새 가상 데스크톱이 활성화되면 영역 레이아웃을 잠시 깜박거림 |
+| 활성화된 가상 데스크톱이 변경 될 때 창을 영역에 유지 | 응용 프로그램이 모든 가상 데스크톱에 고정된 경우 이 설정은 해당 창을 모든 데스크톱의 동일한 영역에 유지 |
+| 영역 하이라이트 색상 (기본값 # 0078D7) | 윈도우 드래그 중에 활성의 드롭 타겟이 될 때의 존의 색 
+| 새로운 영역 편집 경험 사용 (미리보기) | 활성화되면 새 편집기가 활성화, 오리지널 에디터는 멀티-몬 레이아웃을 더 잘 지원 |  
+| 새로 만든 창을 마지막으로 알려진 영역으로 이동 | 새로 열린 창을 응용 프로그램이 있던 마지막 영역 위치로 자동 이동 |
 
 ![Fancy Zones Settings UI](FancyZonesSettings.png)
 
