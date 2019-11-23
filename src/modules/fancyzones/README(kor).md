@@ -1,17 +1,17 @@
 # Fancy Zones
-Fancy Zones is a window manager that is designed to make it easy to arrange and snap windows into efficient layouts for your workflow and also to restore these layouts quickly.  Fancy Zones allows the user to define a set of window locations for a desktop that are drag targets for windows.  When the user drags a window into a zone, the windows is resized and repositioned to fill that zone.  
+Fancy Zones는 창을 효율적인 레이아웃으로 쉽게 정렬하고 잘라내고 레이아웃을 설정할 수 있게 설계된 창 관리자입니다. Fancy Zones는 사용자가 창의 드래그 대상인 데스크탑의 창 위치를 정의할 수 있도록 합니다. 사용자가 창을 영역으로 끌어오면 해당 영역을 채우도록 창 크기가 조정되고 위치가 조정됩니다. 
 
 ![Fancy Zones](FancyZones.png)
 
-To get started with Fancy Zones, you need to enable the utility in Power Toys settings and then invoke the Fancy Zones setup UI.  There is a button in settings to invoke this UI, or you can press Win+~ to launch it.  When first launched, the UI presents a list of zone layouts that can be quickly adjusted by how many windows are on the monitor.  Choosing a layout shows a preview of that layout on the monitor.  Pressing the save and close button sets that layout to the monitor.  
+Fancy Zones를 시작하려면 PowerToys 설정에서 유틸리티를 활성화한 다음 FancyZones 설정 UI를 호출해야 합니다. 이 UI를 호출하는 설정에 있는 버튼을 클릭하거나 Win + ~를 눌러 시작할 수 있습니다. UI를 처음 시작할 때 모니터에 있는 창 수에 따라 조정할 수 있는 영역 레이아웃 목록이 표시됩니다. 레이아웃을 선택하면 모니터에서 해당 레이아웃의 미리보기가 표시됩니다. 저장 및 닫기 버튼을 누르면 해당 레이아웃이 모니터로 설정됩니다.
 
 ![Fancy Zones Picker](Picker.png)
 
-The editor also supports creating and saving custom layouts.  This functionality is in the “Custom” tab in the editor UI.  There are two ways to create custom zone layouts, window layout and table layout.  These can also be thought of as additive and subtractive models.  The additive window layout model starts with a blank layout and supports adding zones that can be dragged and resized similar to windows.  
+편집기는 사용자 정의에 맞는 레이아웃 작성 및 저장을 지원합니다. 이 기능은 편집기 UI의 "사용자 정의"탭에 있습니다. 사용자 지정 영역 레이아웃을 만드는 방법에는 창 레이아웃과 테이블 레이아웃의 두 가지가 있습니다. 이들은 또한 추가 및 삭제 모델로 생각할 수 있습니다. 추가 창 레이아웃 모델은 빈 레이아웃으로 시작하며 창과 유사하게 끌어서 크기를 조정할 수 있는 영역 추가를 지원합니다. 
 
 ![Fancy Zones Window Editor Mode](WindowEditor.png)
 
-The subtractive table layout model starts with a table layout and allows zones to be created by splitting and merging zones and then resizing the gutter between zones.  
+삭제 테이블 레이아웃 모델은 테이블 레이아웃으로 시작하며 영역을 분할 및 병합한 다음 영역 사이의 홈 크기를 조정하여 영역을 만들 수 있습니다. 
 
 ![Fancy Zones Table Editor Mode](TableEditor.png)
 
